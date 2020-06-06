@@ -45,8 +45,6 @@ public class PokeDetailActivity extends AppCompatActivity {
         list.add(mName);
         PokeListRecyclerViewAdapter adapter = new PokeListRecyclerViewAdapter(PokeDetailActivity.this,list);
         recyclerView.setAdapter(adapter);
-
-
         dispAllDamageTable();
         dispStatus();
         dispCharaView();

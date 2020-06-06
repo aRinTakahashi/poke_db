@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "306094352708",
+    "firebase_url": "https://pokedex-and.firebaseio.com",
+    "project_id": "pokedex-and",
+    "storage_bucket": "pokedex-and.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306094352708:android:8d3c4c3d2f3d973bea0f11",
+        "android_client_info": {
+          "package_name": "site.rinax.poke_db"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306094352708-cij5cgr8ep5esa2o0t41v71jc99cg15k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxBDixDd0JE7KyQHTsRcve-U3eMrxO8i0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306094352708-cij5cgr8ep5esa2o0t41v71jc99cg15k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
