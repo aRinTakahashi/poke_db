@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#810000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="toolbar">#C00000</color>
+<color name="table_color">#8AE7C4</color>
+    <color name="table_col_color">#FFC3F0DD</color>
+    <color name="divider">#A8A8A8</color>
+    <color name="table_row_color">#E6E6E6</color>
+    <color name="blue">#0000ff</color>
+</resources>

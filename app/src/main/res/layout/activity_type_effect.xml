@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TypeEffectActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/drawer_type"
+        android:theme="@style/ToolbarTheme"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/type_string_margin"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/nomaru"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_nomaru"
+                app:layout_constraintEnd_toStartOf="@+id/honoo"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/honoo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_honoo"
+                app:layout_constraintEnd_toStartOf="@+id/mizu"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/nomaru"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/mizu"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_mizu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/honoo"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/type_string_margin"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/denki"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_denki"
+                app:layout_constraintEnd_toStartOf="@+id/kusa"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/kusa"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_kusa"
+                app:layout_constraintEnd_toStartOf="@+id/koori"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/denki"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/koori"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_koori"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/kusa"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/type_string_margin"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/kakutou"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_kakutou"
+                app:layout_constraintEnd_toStartOf="@+id/doku"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/doku"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_doku"
+                app:layout_constraintEnd_toStartOf="@+id/jimen"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/kakutou"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/jimen"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_jimen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/doku"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/type_string_margin"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/hikou"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_hikou"
+                app:layout_constraintEnd_toStartOf="@+id/esupa"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/esupa"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_esupa"
+                app:layout_constraintEnd_toStartOf="@+id/musi"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/hikou" />
+
+            <ImageButton
+                android:id="@+id/musi"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_musi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/esupa" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/type_string_margin"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/iwa"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_iwa"
+                app:layout_constraintEnd_toStartOf="@+id/gosuto"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/gosuto"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_gosuto"
+                app:layout_constraintEnd_toStartOf="@+id/doragon"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/iwa" />
+
+            <ImageButton
+                android:id="@+id/doragon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_doragon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/gosuto" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/type_string_margin"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/aku"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_aku"
+                app:layout_constraintEnd_toStartOf="@+id/hagane"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/hagane"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_hagane"
+                app:layout_constraintEnd_toStartOf="@+id/feari"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/aku" />
+
+            <ImageButton
+                android:id="@+id/feari"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/type_button_height"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:src="@drawable/type_feari"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/hagane" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="@dimen/type_string_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="効果ばつぐん"
+                android:textSize="@dimen/type_text_size"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:id="@+id/type_effective"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+            <LinearLayout
+                android:id="@+id/type_effective2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="@dimen/type_string_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="効果いまひとつ"
+                android:textSize="@dimen/type_text_size"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:id="@+id/type_resistant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+            <LinearLayout
+                android:id="@+id/type_resistant2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/type_string_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/type_text_size"
+                android:text="効果なし"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:id="@+id/type_immune"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PokemonDB</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="drawer_seikaku">性格表</string>
+    <string name="drawer_type">タイプ相性</string>
+    <string name="backkey_guard_message">もう一度押すと終了します</string>
+    <string name="status_h">HP</string>
+    <string name="status_a">攻撃</string>
+    <string name="status_b">防御</string>
+    <string name="status_c">特攻</string>
+    <string name="status_d">特防</string>
+    <string name="status_s">素早さ</string>
+    <string name="status_all">合計</string>
+    <string name="type_warning_message">選べるタイプは２つまでです</string>
+    <string name="favorite_activity_title">お気に入り</string>
+    <string name="type_effective">こうかばつぐん</string>
+    <string name="type_resistant">こうかいまひとつ</string>
+
+</resources>

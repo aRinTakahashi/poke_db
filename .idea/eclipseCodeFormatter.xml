@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../work/android_publis_formatter_20120530.xml" />
+        <option name="selectedJavaProfile" value="Android_publis_20120530" />
+      </ProjectSpecificProfile>
+    </option>
+  </component>
+</project>
